@@ -49,7 +49,7 @@ cnts = cnts[1]
 pixelsPerMetric = None
 
 for c in cnts:
-    print(cv2.contourArea(c))
+    
     if cv2.contourArea(c) < 500:
         continue
 
